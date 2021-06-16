@@ -10,9 +10,9 @@ User.destroy_all
 
 puts "destroying existing records DONE"
 
-puts "creating Maxisol account ..."
+puts "creating User as Maxisol account ..."
 
 maxisol = User.create(email: "contact.maxisol@gmail.com", password: "Deniz210")
 
-puts "maxisol account DONE ..."
+puts "User maxisol account DONE ..."
 
