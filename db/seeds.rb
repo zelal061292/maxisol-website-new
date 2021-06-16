@@ -6,13 +6,13 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 puts "destroying existing records..."
-Maxisol.destroy_all
+User.destroy_all
 
 puts "destroying existing records DONE"
 
 puts "creating Maxisol account ..."
 
-maxisol = Maxisol.create(email: "contact.maxisol@gmail.com", password: "9id4s")
+maxisol = User.create(email: "contact.maxisol@gmail.com", password: "Deniz210")
 
 puts "maxisol account DONE ..."
 
