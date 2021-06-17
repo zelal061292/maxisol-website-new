@@ -12,7 +12,7 @@ puts "destroying existing records DONE"
 
 puts "creating Maxisol account ..."
 
-maxisol = User.create(email: "contact.maxisol@gmail.com", password: "Deniz210")
+maxisol = User.create(email: "contact.maxisol@gmail.com", password: "123456")
 
 puts "maxisol account DONE ..."
 
