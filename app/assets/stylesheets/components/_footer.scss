@@ -16,8 +16,10 @@
 // }
 
 .background-footer {
-  background: rgb(162,170,255);
-  background: linear-gradient(0deg, rgba(162,170,255,1) 0%, rgba(162,170,255,1) 10%, rgba(252,252,252,1) 100%);
+  // background: linear-gradient(to top, #224424, #ffffff);
+  background: rgb(20,136,122);
+  background: linear-gradient(0deg, rgba(20,136,122,1) 0%, rgba(255,255,255,1) 100%);
+
   position: relative;
   bottom: 0;
   width: 100%;
