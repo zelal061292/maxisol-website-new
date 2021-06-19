@@ -2,10 +2,16 @@
 
   <!-- Footer -->
   <footer class="background-footer">
-    <div class="container py-5">
+    <div class="container-footer">
       <div class="row py-4">
-        <%# <div class="col-lg-4 col-md-6 mb-4 mb-lg-0"><%= image_tag("logo.png", class:"footer-logo") %>
-          <p class="font-italic text-muted">© Maxisol, votre entreprise écoresponsable</p>
+        <%# <div class="col-lg-4 col-md-6 mb-4 mb-lg-0"><%= image_tag("maxisol1gk.png", class:"footer-logo") %>
+
+          <ul>
+            <p class="font-italic text-muted">© Maxisol, votre entreprise écoresponsable</p>
+          </ul>
+          <ul>
+            <p><%= link_to "Espace Administrateur", new_user_session_path, class: "admin-space" %></p>
+          </ul>
           <ul class="list-inline mt-4">
             <li class="list-inline-item"><a href="#" target="_blank" title="twitter"><i class="fab fa-twitter"></i></a></li>
             <li class="list-inline-item"><a href="#" target="_blank" title="facebook"><i class="fab fa-facebook"></i></a></li>
@@ -13,24 +19,23 @@
           </ul>
         </div>
         <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
-          <h6 class="text-uppercase font-weight-bold mb-4">Comptables</h6>
+          <h6 class="text-uppercase font-weight-bold mb-4">Entreprise RGE</h6>
           <ul class="list-unstyled mb-0">
             <li class="mb-2"><a href="#" class="text-muted">Présentation</a></li>
             <li class="mb-2"><a href="#" class="text-muted">Services</a></li>
             <li class="mb-2"><a href="#" class="text-muted">Tarifs</a></li>
-            <li class="mb-2"><a href="#" class="text-muted">Blog</a></li>
           </ul>
         </div>
-        <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+        <%# <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
           <h6 class="text-uppercase font-weight-bold mb-4">Entreprises</h6>
           <ul class="list-unstyled mb-0">
             <li class="mb-2"><a href="#" class="text-muted">Présentation</a></li>
             <li class="mb-2"><a href="#" class="text-muted">Parrainez votre comptable</a></li>
           </ul>
-        </div>
+        </div> %>
         <div class="col-lg-4 col-md-6 mb-lg-0">
           <h6 class="text-uppercase font-weight-bold mb-4">Newsletter</h6>
-          <p class="text-muted mb-4">Rejoignez le groupe d'élites qui se sont également inscrites à notre liste de diffusion</p>
+          <p class="text-muted mb-4">Pour recevoir une brochure de  nos offres</p>
           <div class="p-1 rounded border">
             <div class="input-group">
               <input type="email" placeholder="Votre adresse email" aria-describedby="button-addon1" class="form-control border-0 shadow-0">
@@ -42,10 +47,7 @@
         </div>
       </div>
       <div class="container text-center">
-        <p class="text-muted mb-0 py-2">© 2021 Countify All rights reserved.</p>
-      </div>
-      <div>
-        <p><%= link_to "Espace Administrateur", new_user_session_path, class: "admin-space" %></p>
+        <p class="text-muted mb-0 py-2">© 2021 Maxisol All rights reserved.</p>
       </div>
     </div>
   </footer>
