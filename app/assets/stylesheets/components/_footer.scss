@@ -17,22 +17,21 @@
 
 .background-footer {
   // background: linear-gradient(to top, #224424, #ffffff);
-  background: rgb(20,136,122);
-  background: linear-gradient(0deg, rgba(20,136,122,1) 0%, rgba(255,255,255,1) 100%);
-  position: relative;
-  bottom: 0;
-  width: 100%;
+  background: #3E7A42;
+  // position: relative;
+  // bottom: 0;
+  // width: 100%;
 }
 
-// .footer-logo {
-//   height: 72px;
+// // .footer-logo {
+// //   height: 72px;
+// // }
+
+// .connected-footer{
+//   display: flex;
+//   justify-content: center;
+//   .copyright{
+//     margin-top: 25px;
+//     padding: 20px;
+//   }
 // }
-
-.connected-footer{
-  display: flex;
-  justify-content: center;
-  .copyright{
-    margin-top: 25px;
-    padding: 20px;
-  }
-}
