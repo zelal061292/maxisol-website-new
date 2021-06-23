@@ -16,11 +16,19 @@
 // }
 
 .background-footer {
-  // background: linear-gradient(to top, #224424, #ffffff);
   background: #3E7A42;
   // position: relative;
   // bottom: 0;
   // width: 100%;
+  .admin-space {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+  }
+  .maxisol-footer {
+    color: white;
+    font-size: 15px;
+  }
 }
 
 // // .footer-logo {
