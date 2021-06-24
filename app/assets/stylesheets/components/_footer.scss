@@ -21,11 +21,18 @@
   // bottom: 0;
   // width: 100%;
   .admin-space {
+    letter-spacing: .0625rem;
     color: white;
     font-size: 15px;
     text-decoration: none;
+
+    &:hover {
+    color:#203C46;
+    text-decoration: none;
+  }
   }
   .maxisol-footer {
+    letter-spacing: .0625rem;
     color: white;
     font-size: 15px;
   }
