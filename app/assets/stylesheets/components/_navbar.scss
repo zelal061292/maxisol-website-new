@@ -2,8 +2,19 @@
   justify-content: space-between;
   background: #3E7A42;
   // margin-top: 120px;
-  padding: 50px;
+  padding-top: 25px;
   flex-direction: column;
+
+  a {
+  padding-left: 60px;
+  text-decoration: none;
+  color: white;
+  font-size: large;
+  &:hover {
+    color:#203C46;
+    text-decoration: none;
+  }
+}
 
 }
 
@@ -20,15 +31,15 @@
   display: flex;
   justify-content: center;
   color: white;
+  padding-bottom: 10px;
 }
 
-p {
-  color: white;
-}
+
+
 
 .nav-flex {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 // .nav-item {
