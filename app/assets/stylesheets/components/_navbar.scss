@@ -2,14 +2,41 @@
   justify-content: space-between;
   background: #3E7A42;
   // margin-top: 120px;
-  padding: 50px;;
+  padding: 50px;
+  flex-direction: column;
 
 }
 
 .navbar-lewagon .navbar-collapse {
   flex-grow: 0;
+
 }
 
 .navbar-lewagon .navbar-brand img {
   width: 40px;
 }
+
+.nav-title {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+.nav-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+// .nav-item {
+//   a {
+//     text-decoration: none;
+//     color: $gray;
+//     &:hover {
+//       color: $medium-grey;
+//     }
+//   }
+// }
