@@ -6,7 +6,9 @@
   flex-direction: column;
 
   a {
-  padding-left: 60px;
+  letter-spacing: .0625rem;
+  padding-left: 50px;
+  padding-right: 50px;
   text-decoration: none;
   color: white;
   font-size: large;
@@ -28,10 +30,13 @@
 }
 
 .nav-title {
+  letter-spacing: .0625rem;
   display: flex;
   justify-content: center;
   color: white;
   padding-bottom: 10px;
+  // font-weight: bolder;
+  // font-family:'Khand' ;
 }
 
 
