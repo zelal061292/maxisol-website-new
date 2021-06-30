@@ -1,0 +1,126 @@
+// /* Votre isolation */
+// .title-votre-isolation{
+//   // position: absolute;
+//   width: 239px;
+//   height: 44px;
+//   left: 591px;
+//   top: 193px;
+
+//   font-family: Inter;
+//   font-style: normal;
+//   font-weight: 500;
+//   font-size: 36px;
+//   line-height: 44px;
+
+//   /* identical to box height */
+
+//   display: flex;
+//   align-items: center;
+//   letter-spacing: -0.017em;
+
+//   color: #000000;
+// }
+
+.title-votre-isolation {
+  display: flex;
+  justify-content: center;
+  margin-top: 96px;
+  margin-bottom: 86px;
+
+}
+
+.cards-isolation {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+
+  h4 {
+    padding-top: 30px;
+  }
+
+}
+
+.card-mon-besoin {
+  width: 403px;
+  height: 359px;
+  left: 62px;
+  top: 325px;
+
+  background: #FFFFFF;
+  border: 2px solid #3E7A42;
+  box-sizing: border-box;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+}
+.card-ma-plus-value {
+  width: 403px;
+  height: 359px;
+  left: 62px;
+  top: 325px;
+
+  background: #FFFFFF;
+  border: 2px solid #3E7A42;
+  box-sizing: border-box;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+}
+.card-pourquoi-maxisol {
+  width: 403px;
+  height: 359px;
+  left: 62px;
+  top: 325px;
+
+  background: #FFFFFF;
+  border: 2px solid #3E7A42;
+  box-sizing: border-box;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+}
+
+.title-prise-en-charge {
+  display: flex;
+  justify-content: center;
+  margin-top: 96px;
+  margin-bottom: 86px;
+
+}
+
+.card-qui-prend-en-charge {
+  width: 512px;
+  height: 401px;
+  left: 132px;
+  top: 300px;
+
+  background: #FFFFFF;
+  border: 2px solid #3E7A42;
+  box-sizing: border-box;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+}
+.card-je-paie-combien {
+  width: 512px;
+  height: 401px;
+  left: 132px;
+  top: 300px;
+
+  background: #FFFFFF;
+  border: 2px solid #3E7A42;
+  box-sizing: border-box;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+}
+
+.cards-prise-en-charge {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+
+  h4 {
+    padding-top: 30px;
+  }
+
+}
+
+
