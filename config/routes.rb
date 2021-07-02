@@ -6,6 +6,10 @@ Rails.application.routes.draw do
 
   resources :posts, only: [ :index, :new, :create, :delete, :show, :update]
 
+  resource :contacts, only: [:new, :create] do
+    get "/thanks" => "contacts#thanks"
+  end
+
   #unauthenticated user do
   unauthenticated :user do
     root to: "pages#home", as: "home"
