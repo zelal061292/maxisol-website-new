@@ -16,4 +16,5 @@
 //   }
 // }
 
-alert("Hello")
+// alert("Hello")
+// window.alert("Hello");

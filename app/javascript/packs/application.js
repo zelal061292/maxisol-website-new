@@ -28,3 +28,15 @@ document.addEventListener('turbolinks:load', () => {
   // Call your functions here, e.g:
   // initSelect2();
 });
+
+
+window.onscroll = function () {
+
+    if(document.documentElement.scrollTop > 80) {
+      document.getElementById("navbar-unconnected").style.padding = "30px 10px";
+    }
+    else {
+      document.getElementById("navbar-unconnected").style.padding = "50px 10px";
+    }
+
+}

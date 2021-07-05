@@ -1,33 +1,8 @@
 .navbar-lewagon {
-
-  background: #1A3E74;
-  // margin-top: 120px;
-  // padding-top: 25px;
-  flex-direction: column;
-  // position: relative;
-  height: 50px;
-  overflow: hidden;
-  position: absolute;
-
-  width: 100%;
-  height: 40%;
-  transform: skewY(-6deg);
-  transform-origin: top left;
-
-  a {
-  letter-spacing: .0625rem;
-  padding-left: 50px;
-  padding-right: 50px;
-  text-decoration: none;
-  color: white;
-  font-size: large;
-  &:hover {
-    color:#3E7A42;
-    text-decoration: none;
-  }
+  display: flex;
+  justify-content: space-between;
 }
 
-}
 
 .navbar-lewagon .navbar-collapse {
   flex-grow: 0;
@@ -37,54 +12,3 @@
 .navbar-lewagon .navbar-brand img {
   width: 40px;
 }
-
-.nav-title {
-  margin-top: 100px;
-  padding-top: 25px;
-  letter-spacing: .0625rem;
-  display: flex;
-  justify-content: center;
-  color: white;
-  padding-bottom: 10px;
-  // font-weight: bolder;
-  // font-family:'Khand' ;
-}
-
-.green-line {
-  background: #3E7A42;
-  height: 10px;
-  width: 110%;
-  transform: skewY(-8deg);
-  transform: skewX(8deg);
-  margin-top: 68px;
-  padding-top: 23px;
-  // transform-origin: top left;
-}
-
-
-.nav-flex {
-  display: flex;
-  justify-content: space-around;
-}
-
-// #navbar {
-//   position: fixed; /* Set the navbar to fixed position */
-//   top: 0; /* Position the navbar at the bottom of the page */
-//   width: 100%; /* Full width */
-// }
-
-
-
-
-
-// /* The sticky class is added to the navbar with JS when it reaches its scroll position */
-// .sticky {
-//   position: fixed;
-//   top: 0;
-//   width: 100%;
-// }
-
-// /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
-// .sticky + .content {
-//   padding-top: 60px;
-// }
