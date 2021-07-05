@@ -1,12 +1,12 @@
-<h3>Nous contacter</h3>
-<%= form_with(model: @contact, local: true) do |f| %>
-  <%= f.label :firstname, "Prénom" %>
-  <%= f.text_field :firstname %>
-  <%= f.label :laststname, "Nom" %>
-  <%= f.text_field :lastname %>
-  <%= f.label :email, "adresse mail" %>
-  <%= f.email_field :email, autocomplete: "email" %>
-  <%= f.label :content, "Notez votre contenu ici" %>
-  <%= f.text_field :content %>
-  <%= f.submit "Envoyer la demande de contact" %>
-<% end %>
+
+<div class="container-contact-form col-4 offset-4 pt-5 pb-3">
+  <%= simple_form_for(@contact) do |f| %>
+    <%= f.input :firstname %>
+    <%= f.input :lastname %>
+    <%= f.input :email %>
+    <%= f.input :content %>
+    <%= f.submit "Envoyer le formulaire"%>
+  <% end %>
+</div>
+
+
