@@ -32,11 +32,11 @@ document.addEventListener('turbolinks:load', () => {
 
 window.onscroll = function () {
 
-    if(document.documentElement.scrollTop > 80) {
-      document.getElementById("navbar-unconnected").style.padding = "30px 10px";
+    if(document.documentElement.scrollTop > 50) {
+      document.getElementById("navbar-unconnected").style.padding = "38px 24px";
     }
     else {
-      document.getElementById("navbar-unconnected").style.padding = "50px 10px";
+      document.getElementById("navbar-unconnected").style.padding = "66px 36px";
     }
 
 }
