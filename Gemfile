@@ -42,6 +42,7 @@ group :development, :test do  gem 'pry-byebug'
 end
 
 group :development do
+
   # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
   gem 'web-console', '>= 4.1.0'
   # Display performance information such as SQL time and flame graphs for each request in your browser.
@@ -51,6 +52,11 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
 end
+
+# group :development, :test do
+#   gem 'cucumber-rails', :require => false
+#   gem 'database_cleaner'
+# end
 
 group :test do
   # Adds support for Capybara system testing and selenium driver
