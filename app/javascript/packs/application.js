@@ -34,9 +34,16 @@ window.onscroll = function () {
 
     if(document.documentElement.scrollTop > 50) {
       document.getElementById("navbar-unconnected").style.padding = "38px 24px";
+      document.getElementById("navbar-unconnected").style.background = "white";
+      document.getElementsById("maxisol-logo").style.color = "black";
+      document.getElementsById("navbar-items").style.color = "black";
     }
     else {
       document.getElementById("navbar-unconnected").style.padding = "66px 36px";
+      document.getElementById("navbar-unconnected").style.background = "#1A3E74";
+      document.getElementsById("maxisol-logo").style.color = "white";
+      document.getElementsById("navbar-items").style.color = "white";
     }
 
 }
+
