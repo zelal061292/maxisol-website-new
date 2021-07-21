@@ -1,14 +1,27 @@
 
 .banner {
   letter-spacing: .0625rem;
-  background-color: #1A3E74;
-  // background-image: asset-url("40.png");
-  width: 100%;
-  height: 84vh;
+  background-color: #2A62B7;
+  width: 100wh;
+  height: 100vh;
   background-size: cover;
-  // object-fit: contain;
   background-position: center;
-  margin-top: 0;
+  margin-top: -8px;
+  display: grid;
+
+    .image-banner {
+      margin: 0 auto;
+      width: 100%;
+    }
+
+    h1{
+      color: white;
+    }
+
+    h3 {
+      color: white;
+    }
+
   // position: relative;
 
   // .text-description{
@@ -31,6 +44,17 @@
   //   }
   // }
 }
+
+
+.banner-text-container {
+  display: grid;
+  margin: 0 auto;
+  width: 100%;
+  // grid-auto-flow: row;
+}
+
+
+
 
 
 

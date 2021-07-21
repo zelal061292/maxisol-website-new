@@ -48,7 +48,7 @@ default: &default
     - .jpg
 
 
-# development:
+
 #   <<: *default
 
 #   dev_server:
@@ -56,7 +56,7 @@ default: &default
 #     port: 8081
 #     https: false
 
-
+development:
   <<: *default
   compile: true
 
