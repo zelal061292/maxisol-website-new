@@ -6,7 +6,7 @@
   height: 100vh;
   background-size: cover;
   background-position: center;
-  margin-top: -8px;
+  // margin-top: -8px;
   display: grid;
 
     .image-banner {
@@ -16,11 +16,137 @@
 
     h1{
       color: white;
+      margin-left: 6px;
+      font-weight: bold;
     }
 
     h3 {
       color: white;
+      margin-left: 6px;
+      font-weight: bold;
     }
+
+}
+
+
+.ContLeftGrid {
+  // display: grid;
+  margin: 0 auto;
+  width: 100%;
+  display: block;
+  // grid-auto-flow: row;
+}
+
+@media only screen and (min-width: 950px) and (max-width: 1195px) {
+
+  .banner {
+    h1 {
+      font-size: 3.25em !important;
+    }
+  }
+}
+
+
+@media only screen and (max-width: 950px) {
+  .banner {
+
+    .ButtonGrid {
+      margin-left: 0px;
+      // grid-auto-flow: row;
+    }
+
+    .BanGrid-container {
+      display: flex;
+      flex-wrap: wrap;
+      box-sizing: border-box;
+    }
+
+    h1 {
+      margin-bottom: 1.2em !important;
+      // font-size: 2em !important;
+    }
+
+    h3{
+      font-size: 1.2em !important;
+      margin-bottom: 2.2em !important;
+    }
+
+  }
+}
+@media only screen and (min-width: 1195px) and (max-width: 1600px) {
+  h1 {
+      font-size: 4.25em !important;
+    }
+}
+
+
+
+@media only screen and (min-width: 950px) and (max-width: 1600px) {
+
+  .main-container-1 {
+    h3 {
+      font-size: 2.25em !important;
+    }
+  }
+
+  .banner{
+    height: 72vh;
+
+    .ButtonGrid {
+      margin-left: 8px;
+    }
+
+    .banner-header {
+      margin-bottom: 56px;
+    }
+
+    .banner-text-container {
+      margin-bottom: 56px;
+    }
+
+    .ContLeftGrid {
+      display: block;
+      margin: auto;
+}
+
+    .image-banner {
+      margin: 0 auto;
+      width: 100%;
+      display: block;
+      margin: auto;
+    }
+
+    .BanGrid-container {
+      display: flex;
+      flex-direction: row-reverse;
+      box-sizing: border-box;
+      margin-left: 47px;
+      margin-right: 47px;
+    }
+
+    h3{
+      font-size: 1.50em !important;
+    }
+
+    .btn-success {
+      a {
+        font-size: 0.80em !important;
+      }
+    }
+
+  }
+}
+
+@media only screen and (min-width: 610px) and (max-width: 950px) {
+  .banner{
+    .btn-success {
+      a {
+        font-size: 1.25em !important;
+      }
+    }
+  }
+}
+
 
   // position: relative;
 
@@ -43,20 +169,5 @@
   //     line-height : 1.2em;
   //   }
   // }
-}
-
-
-.banner-text-container {
-  display: grid;
-  margin: 0 auto;
-  width: 100%;
-  // grid-auto-flow: row;
-}
-
-
-
-
-
-
 
 
