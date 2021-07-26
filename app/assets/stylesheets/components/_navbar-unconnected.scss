@@ -64,19 +64,54 @@
   position: sticky
 }
 
-@media only screen and (max-width: 990px) {
+@media only screen and (max-width: 950px) {
 
   #navbarSupportedContent {
     width: 100vw;
     height: 100vh;
 
   }
+
+  a {
+    font-size: 0.80em !important;
+  }
+
+  .btn-success {
+    margin-top: 38px;
+  }
 }
 
-@media only screen and (min-width: 991px) and (max-width: 1600px) {
+@media only screen and (min-width: 950px) and (max-width: 1600px) {
+
+  .navbar-lewagon .navbar-brand img {
+      width: 100px;
+  }
+
+
+  .navbar {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: -5px;
+    margin-bottom: -5px;
+  }
   .nav-items {
     display: flex;
     justify-content: space-between;
+    margin: 12px;
+
+  }
+
+  .nav-item {
+    margin-right: 18px;
+  }
+
+  .btn-dark {
+
+
+    a {
+      font-size: 0.80em !important;
+    }
+
   }
 
 }

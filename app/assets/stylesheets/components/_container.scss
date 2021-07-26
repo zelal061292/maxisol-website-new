@@ -5,16 +5,107 @@
 }
 
 .main-container-1 {
+  background-color: #EFF4FB;
   width: 100%;
-  height: 100vh;
+  height: 125vh;
   flex-direction: column;
 }
 
-// .title-rencontre {
-//   justify-items: center;
-// }
-// .container-contact-form {
-//   height: 100vh;
-//   padding-top: 346px;
-  // flex-direction: column;
-// }
+.title-rencontre {
+  text-align: center;
+  margin-top: 10%;
+}
+
+.video-1 {
+  margin: auto;
+}
+
+.Video-Clement {
+  margin-top: 10%;
+}
+
+.text-cont-1 {
+  margin-top: 10%;
+}
+
+.citation-card-containter {
+  margin-top: 8%;
+}
+
+@media only screen and (min-width: 500px) and (max-width: 1600px) {
+
+  .title-rencontre {
+    margin-top: 5%;
+    font-size: 20px;
+  }
+
+  .Video-Clement {
+    margin-top: 5%;
+  }
+
+  .text-cont-1 {
+    margin-top: 5%;
+  }
+
+  .citation-card-containter {
+    margin-top: 4%;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 700px) {
+
+  .video-1 {
+    width: 480px;
+    height: 300px;
+  }
+
+  // .text-cont-1 {
+  //   font-size: 10px;
+  // }
+
+  .title-rencontre {
+    font-size: 15px;
+    margin-top: 3%;
+  }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 1600px) {
+  .video-1 {
+    width: 640px;
+    height: 380px;
+  }
+
+  .title-rencontre {
+    font-size: 20px;
+    margin-top: 3%;
+  }
+}
+
+@media only screen and (min-width: 650px) and (max-width: 750px) {
+  .main-container-1 {
+    height: 130vh;
+  }
+}
+
+
+@media only screen and (min-width: 750px) and (max-width: 950px) {
+    .text-cont-1 {
+    font-size: 20px;
+  }
+
+  .main-container-1 {
+    height: 140vh;
+  }
+}
+
+@media only screen and (min-width: 950px) and (max-width: 1600px) {
+    .text-cont-1 {
+      font-size: 30px;
+  }
+
+  .main-container-1 {
+    height: 170vh;
+  }
+
+}
+
