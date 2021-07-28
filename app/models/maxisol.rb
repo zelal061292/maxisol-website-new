@@ -1,3 +1,3 @@
-# class Maxisol < ApplicationRecord
-#   has_many :posts
-# end
+class Maxisol < ApplicationRecord
+  has_many :posts
+end
