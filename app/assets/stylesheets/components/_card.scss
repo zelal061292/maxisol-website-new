@@ -11,6 +11,93 @@
   margin: auto;
 }
 
+// .card-text-énérgie {
+//   text-align: center;
+// }
+
+.div-text {
+  text-align: center;
+  display: block;
+  margin: auto;
+}
+
+.trop-froid-card {
+  border-radius: 3px;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  border: solid 1px;
+  border-color: black;
+  // position: relative;
+  height: 220px;
+  filter: drop-shadow(2px 3px 4px rgba(0, 0, 0, 0.25));
+}
+.trop-chaud-card {
+  border-radius: 3px;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  border: solid 1px;
+  border-color: black;
+  // position: relative;
+  height: 220px;
+  filter: drop-shadow(2px 3px 4px rgba(0, 0, 0, 0.25));
+}
+.perte-energie-card {
+  border-radius: 3px;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  border: solid 1px;
+  border-color: black;
+  // position: relative;
+  height: 220px;
+  filter: drop-shadow(2px 3px 4px rgba(0, 0, 0, 0.25));
+}
+.moisisur-card {
+  border-radius: 3px;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  border: solid 1px;
+  border-color: black;
+  // position: relative;
+  height: 220px;
+  filter: drop-shadow(2px 3px 4px rgba(0, 0, 0, 0.25));
+}
+
+.row-froid  {
+  width: 100%;
+}
+.row-chaud  {
+  width: 100%;
+}
+.row-energie  {
+  width: 100%;
+}
+.row-moisisur {
+  width: 100%;
+}
+
+.container-cards {
+  padding: 5%
+}
+
+// @media only screen and (min-width: 768px) {
+
+//   .card-text-froid {
+//     display: flex;
+//     flex-direction: row;
+//     box-sizing: border-box;
+//     margin-left: 5%;
+
+//     p {
+//       margin-left: 40%;
+//       font-size: larger;
+//     }
+//   }
+//   .trop-froid-card {
+//     margin-top: 0;
+//     margin-bottom: 0;
+//   }
+
+// }
 
  //css pour les card que je n'utilise  plus mais pour les flew row ...je garde au cas ou
 .title-votre-isolation {

@@ -4,14 +4,25 @@
   padding: 20px;
 }
 
+.main-container-2 {
+  background-color: white;
+  width: 100%;
+  // height: 156vh;
+}
+
 .main-container-1 {
   background-color: #EFF4FB;
   width: 100%;
-  height: 125vh;
+  height: 113vh;
   flex-direction: column;
 }
 
 .title-rencontre {
+  text-align: center;
+  margin-top: 10%;
+}
+
+.title-mes-mures {
   text-align: center;
   margin-top: 10%;
 }
@@ -32,7 +43,15 @@
   margin-top: 8%;
 }
 
-@media only screen and (min-width: 500px) and (max-width: 1600px) {
+.container-cards {
+  justify-content: center;
+}
+
+h3 {
+  margin-bottom: -22px;
+}
+
+@media only screen and (min-width: 500px) {
 
   .title-rencontre {
     margin-top: 5%;
@@ -52,7 +71,56 @@
   }
 }
 
-@media only screen and (min-width: 500px) and (max-width: 700px) {
+@media only screen and (min-width: 768px) {
+
+  .main-container-1 {
+    height: 100%;
+  }
+
+  .main-container-2 {
+    height: 100%;
+
+    h3 {
+      font-size: 2.25em !important;
+    }
+  }
+
+  .container-cards{
+    // padding: 15%;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    justify-content: center;
+  }
+
+  .title-mes-mures {
+    text-align: center;
+    margin-top: 5%;
+  }
+
+  .video-1 {
+    width: 640px;
+    height: 380px;
+  }
+
+  .title-rencontre {
+    font-size: 20px;
+    margin-top: 3%;
+  }
+  .ButtonGrid-2 {
+    margin-bottom: 5%;
+  }
+
+
+}
+
+@media only screen and (max-width: 768px) {
+  .cards-cont2 {
+    justify-content: center;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 768px) {
 
   .video-1 {
     width: 480px;
@@ -65,43 +133,33 @@
   }
 }
 
-@media only screen and (min-width: 700px) and (max-width: 1600px) {
-  .video-1 {
-    width: 640px;
-    height: 380px;
-  }
+// @media only screen and (min-width: 700px) and (max-width: 1600px) {
+//   .video-1 {
+//     width: 640px;
+//     height: 380px;
+//   }
 
-  .title-rencontre {
-    font-size: 20px;
-    margin-top: 3%;
-  }
-}
+//   .title-rencontre {
+//     font-size: 20px;
+//     margin-top: 3%;
+//   }
+// }
 
-@media only screen and (min-width: 650px) and (max-width: 750px) {
-  .main-container-1 {
-    height: 130vh;
-  }
-}
+// @media only screen and (min-width: 650px) and (max-width: 750px) {
+//   .main-container-1 {
+//     height: 130vh;
+//   }
+// }
 
 
 @media only screen and (min-width: 750px) and (max-width: 950px) {
     .text-cont-1 {
     font-size: 20px;
   }
-
-  .main-container-1 {
-    height: 140vh;
-  }
 }
 
-@media only screen and (min-width: 950px) and (max-width: 1600px) {
+@media only screen and (min-width: 950px) {
     .text-cont-1 {
       font-size: 30px;
   }
-
-  .main-container-1 {
-    height: 160vh;
-  }
-
 }
-
