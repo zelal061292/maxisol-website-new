@@ -1,12 +1,63 @@
+<div class="sticky-top">
+  <div class="navbar navbar-expand-lg navbar-light navbar-lewagon">
+    <%# <%= link_to "MAXISOL", "#", class: "navbar-brand" %>
+    <%= link_to image_tag("LOGO FINAL MAXISOL 2.jpg"), "#", class: "navbar-brand" %>
+      <%# <%= image_tag "https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/logo.png" %>
 
-<div class="container-contact-form col-4 offset-4 pt-5 pb-3">
-  <%= simple_form_for(@contact) do |f| %>
-    <%= f.input :firstname %>
-    <%= f.input :lastname %>
-    <%= f.input :email %>
-    <%= f.input :content %>
-    <%= f.submit "Envoyer le formulaire"%>
-  <% end %>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <div class="nav-items">
+          <li class="nav-item smaller">
+            <%= link_to "Les tarifs", "#", class: "nav-link" %>
+          </li>
+          <li class="nav-item smaller">
+            <%= link_to "Témoignage", "#", class: "nav-link" %>
+          </li>
+          <li class="nav-item smaller">
+            <%= link_to "Galerie photos", "#", class: "nav-link" %>
+          </li>
+          <li class="nav-item smaller">
+            <%= link_to "Qui sommes-nous", "#", class: "nav-link" %>
+          </li>
+        </div>
+        <div class="my-2 my-lg-0">
+          <button type="button" class="btn btn-dark btn-lg my-2 my-sm-0">
+            <%= link_to 'Obtenir un devis personnalisé' , new_contacts_path %>
+          </button>
+        </div>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="container-form-page col-10 justify-content-center">
+
+  <div class="num-contact p-3 mt-3">
+    <div class="img-phone mr-4">
+      <%= image_tag("phone.png") %>
+    </div>
+    <div class="nums">
+      <div class="num"><h5>01 70 27 15 87</h5></div>
+      <div class="num"><h5>07 67 69 90 73</h5></div>
+    </div>
+  </div>
+
+  <div class="container-contact-form col-12 offset-1 mb-5">
+    <%= simple_form_for(@contact) do |f| %>
+      <%= f.input :firstname %>
+      <%= f.input :lastname %>
+      <%= f.input :email %>
+      <%= f.input :content %>
+      <%= f.submit "Envoyer le formulaire"%>
+    <% end %>
+  </div>
+
 </div>
 
 
