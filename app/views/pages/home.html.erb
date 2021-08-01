@@ -60,26 +60,32 @@
 </div>
 
 <div class="main-container-1">
+
   <div class="ContGrid-1 row justify-content-center">
+
     <div class="title-rencontre col-12 col-lg-8">
       <h3>Rencontre avec Clément Aslan Directeur de Maxisol</h3>
     </div>
-    <div class="Video-Clement">
-      <iframe class="video-1 row justify-content-center" width="338" height="215" src="https://www.youtube.com/embed/PzBv3LARb1Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-    <div class="text-cont-1 row justify-content-center col-10 col-lg-8">
-      <p>Il répond aux questions que vous vous posez le plus</p>
-    </div>
-    <div class="citation-card-containter col-sm-10 col-md-10 col-lg-10">
-      <div class="citation-card">
-        <p>"Ceci est un test"</p>
+
+    <div class= "container-cards-rencontre">
+
+      <div class="Video-Clement">
+        <iframe class="video-1 row justify-content-center" width="338" height="215" src="https://www.youtube.com/embed/PzBv3LARb1Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
+      <div class="text-cont-1 row justify-content-center col-10 col-lg-8">
+        <p>Il répond aux questions que vous vous posez le plus</p>
+      </div>
+      <div class="citation-card-containter col-sm-10 col-md-10 col-lg-10">
+        <div class="citation-card">
+          <p>"Ceci est un test"</p>
+        </div>
+      </div>
+      <div class="ButtonGrid-2 mb-5"  id="contact-us-2">
+        <button type="button" class="btn btn-success btn-lg">
+          <%= link_to 'Obtenir un devis personnalisé' , new_contacts_path %>
+        </button>
     </div>
-    <div class="ButtonGrid-2"  id="contact-us-2">
-      <button type="button" class="btn btn-success btn-lg">
-        <%= link_to 'Obtenir un devis personnalisé' , new_contacts_path %>
-      </button>
-    </div>
+
   </div>
 </div>
 
@@ -136,25 +142,25 @@
 
   <div class="ContGrid-3 row justify-content-center">
 
+    <div class="title-solution mb-5 col-12 col-lg-8">
+      <h3>Notre solution pour vous</h3>
+    </div>
+
     <div class= "container-cards-solution">
 
-      <div class="title-solution row justify-content-md-center">
-        <h3>Notre solution pour vous</h3>
-      </div>
-
-      <div class="row-text-solution justify-content-md-center">
-        <p>Les aides de l’état finance vos travaux énergetique à hauteur de 40%  jusqu’à 90% du coût total du chantier en fonction de votre revenu fiscal (voir tableau).
-        Le reste à charge pouvant  bénéficier  d’un prêt à taux zéro (Éco prêt-TZ)
+      <div class="row-text-solution mt-2 justify-content-md-center">
+        <p>Les aides de l’état finance vos travaux énergetique à hauteur de <span class=bold>40%</span> jusqu’à <span class="bold">90%</span> du coût total du chantier en fonction de votre revenu fiscal (voir tableau).
+        Le reste à charge pouvant bénéficier d’un prêt à taux zéro (Éco prêt-TZ)
         </p>
       </div>
 
-      <div class="ButtonGrid-3" id="contact-us-3">
+      <div class="ButtonGrid-3 mb-5" id="contact-us-3">
         <button type="button" class="btn btn-success btn-lg">
           <%= link_to 'Obtenir un devis personnalisé' , new_contacts_path %>
         </button>
       </div>
 
-      <div class="image-1-Cont-3 col-md-10 col-lg-6 row">
+      <div class="image-1-Cont-3 col-md-10 col-lg-6 row justify-content-center">
         <%= image_tag("money.png") %>
       </div>
 
@@ -166,7 +172,7 @@
         <%= image_tag("undraw_mindfulness_scgo.svg") %>
       </div>
 
-      <div class="ButtonGrid-3" id="contact-us-4">
+      <div class="ButtonGrid-3 mb-5" id="contact-us-4">
         <button type="button" class="btn btn-success btn-lg">
           <%= link_to 'Obtenir un devis personnalisé' , new_contacts_path %>
         </button>
