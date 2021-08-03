@@ -1,0 +1,97 @@
+<div class="sticky-top">
+  <div class="navbar navbar-expand-lg navbar-light navbar-lewagon">
+    <%# <%= link_to "MAXISOL", "#", class: "navbar-brand" %>
+    <%= link_to image_tag("LOGO FINAL MAXISOL 2.jpg"), "#", class: "navbar-brand" %>
+      <%# <%= image_tag "https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/logo.png" %>
+
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <div class="nav-items">
+          <li class="nav-item smaller">
+            <%= link_to "Les tarifs", tarif_path, class: "nav-link" %>
+          </li>
+          <li class="nav-item smaller">
+            <%= link_to "Témoignage", "#", class: "nav-link" %>
+          </li>
+          <li class="nav-item smaller">
+            <%= link_to "Galerie photos", "#", class: "nav-link" %>
+          </li>
+          <li class="nav-item smaller">
+            <%= link_to "Qui sommes-nous", "#", class: "nav-link" %>
+          </li>
+        </div>
+        <div class="my-2 my-lg-0">
+          <button type="button" class="btn btn-dark btn-lg my-2 my-sm-0">
+            <%= link_to 'Obtenir un devis personnalisé' , new_contacts_path %>
+          </button>
+        </div>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<h1>Voici la page des Tarifs</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th class="th-sm">
+        <div class="title-header">
+          <p>MaPrimRénov'Bleu</p>
+        </div>
+      </th>
+      <th class="th-sm">
+        <div class="title-header">
+          <p>MaPrimRénov'Jaune</p>
+        </div>
+      </th>
+      <th class="th-sm">
+        <div class="title-header">
+          <p>MaPrimRénov'Violet</p>
+        </div>
+      </th>
+      <th class="th-sm">
+        <div class="title-header">
+          <p>MaPrimRénov'Rose</p>
+        </div>
+      </th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <td>
+      <p class="Ptable mt-3">jusqu'à 14 879 €</p>
+      <p>jusqu'à 21 760 €</p>
+      <p>jusqu'à 26 170 €</p>
+      <p>jusqu'à 30 572 €</p>
+      <p>jusqu'à 34 993 €</p>
+    </td>
+    <td>
+      <p class="Ptable mt-3">jusqu'à 19 074 €</p>
+      <p>jusqu'à 27 896 €</p>
+      <p>jusqu'à 33 547 €</p>
+      <p>jusqu'à 39 192 €</p>
+      <p>jusqu'à 44 860 €</p>
+    </td>
+    <td>
+      <p class="Ptable mt-3">jusqu'à 29 148 €</p>
+      <p>jusqu'à 42 848 €</p>
+      <p>jusqu'à 51 592 €</p>
+      <p>jusqu'à 60 336 €</p>
+      <p>jusqu'à 69 081 €</p>
+    </td>
+    <td>
+      <p class="Ptable mt-3">> 29 148 €</p>
+      <p>> 42 848 €</p>
+      <p>> 51 592 €</p>
+      <p>> 60 336 €</p>
+      <p>> 69 081 €</p>
+    </td>
+  </tbody>
+</table>

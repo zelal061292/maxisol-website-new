@@ -13,6 +13,8 @@ Rails.application.routes.draw do
   #unauthenticated user do
   unauthenticated :user do
     root to: "pages#home", as: "home"
+    get "/tarif" => "pages#tarif"
+    # root to: "pages#tarif", as: "tarif"
   end
 
   #authenticate user do
