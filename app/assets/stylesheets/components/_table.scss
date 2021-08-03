@@ -1,0 +1,24 @@
+table {
+  margin: 0 auto;
+  width: 90%;
+  margin-bottom: 32px;
+}
+
+thead tr {
+  border-bottom: 2px solid black;
+}
+
+thead {
+  text-align: center;
+  th {
+    padding: 20px 10px;
+    font-weight: 500;
+  }
+}
+
+tbody {
+  text-align: center;
+  td p {
+    border-bottom: 1px solid black;
+  }
+}
