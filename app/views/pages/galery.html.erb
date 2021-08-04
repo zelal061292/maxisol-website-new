@@ -20,7 +20,7 @@
             <%= link_to "Témoignage", "#", class: "nav-link" %>
           </li>
           <li class="nav-item smaller">
-            <%= link_to "Galerie photos", "#", class: "nav-link" %>
+            <%= link_to "Galerie photos", galery_path, class: "nav-link" %>
           </li>
           <li class="nav-item smaller">
             <%= link_to "Qui sommes-nous", "#", class: "nav-link" %>
@@ -36,46 +36,4 @@
   </div>
 </div>
 
-<div class="container-form-page col-10 justify-content-center">
-
-  <div class="num-contact offset-1 p-3 mt-3">
-    <div class="img-phone mr-4">
-      <%= image_tag("phone.png") %>
-    </div>
-    <div class="nums">
-      <div class="num"><h5>01 70 27 15 87</h5></div>
-      <div class="num"><h5>07 67 69 90 73</h5></div>
-    </div>
-  </div>
-
-  <div class="contact-disposition col-12 offset-1 p-3 mt-3">
-    <p>Nous sommes à votre disposition tous les jours de 9h à 19h par téléphone </p>
-  </div>
-
-  <div class="obtenez-devis col-12 offset-1 p-3 mt-3">
-    <p>Obtenez votre devis personnalisé </p>
-  </div>
-
-
-  <div class="container-contact-form col-12 offset-1 mt-3 mb-5">
-    <%= simple_form_for(@contact) do |f| %>
-      <%= f.input :firstname,
-        label: "Prénom"%>
-      <%= f.input :lastname,
-        label: "Nom"%>
-      <%= f.input :email %>
-      <%= f.input :phone_number,
-        label: "Téléphone"%>
-      <%= f.input :adress,
-        label: "Adresse postale"%>
-      <%= f.input :zipcode,
-        label: "Code Postale"%>
-      <%= f.input :content,
-        label: "Contenu du Message"%>
-      <%= f.submit "Envoyer le formulaire"%>
-    <% end %>
-  </div>
-
-</div>
-
-
+<h1>Voici la page de la Galerie Photos</h1>

@@ -1,6 +1,9 @@
 Rails.application.routes.draw do
   devise_for :users
-  # root to: 'pages#home'
+
+  # get "posts", to: "posts#index"
+  # get "posts/new", to: "posts#new"
+  # get "posts/new", to: "posts#new"
 
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 
@@ -14,6 +17,7 @@ Rails.application.routes.draw do
   unauthenticated :user do
     root to: "pages#home", as: "home"
     get "/tarif" => "pages#tarif"
+    get "/galery" => "pages#galery"
     # root to: "pages#tarif", as: "tarif"
   end
 
