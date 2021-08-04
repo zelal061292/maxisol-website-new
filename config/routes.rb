@@ -17,7 +17,7 @@ Rails.application.routes.draw do
   unauthenticated :user do
     root to: "pages#home", as: "home"
     get "/tarif" => "pages#tarif"
-    get "/galery" => "pages#galery"
+    # get "/galery" => "pages#galery"
     # root to: "pages#tarif", as: "tarif"
   end
 
