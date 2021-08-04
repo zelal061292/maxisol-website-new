@@ -7,6 +7,7 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 puts "destroying existing records..."
 User.destroy_all
+Post.destroy_all
 
 puts "destroying existing records DONE"
 
@@ -15,4 +16,8 @@ puts "creating User as Maxisol account ..."
 maxisol = User.create(email: "contact.maxisol@gmail.com", password: "123456")
 
 puts "user maxisol account DONE ..."
+
+post1 = Post.create(title: "Test 1", content: "blabla")
+
+puts "post 1 creation DONE ..."
 

@@ -1,0 +1,12 @@
+<h1>Posts / new / create </h1>
+
+
+<div class="container-post-form col-10 offset-1 mt-3 mb-5">
+  <%= simple_form_for(@post) do |f| %>
+    <%= f.input :title,
+      label: "Titre"%>
+    <%= f.input :content,
+      label: "Contenu"%>
+    <%= f.submit "Ajouter la photo"%>
+  <% end %>
+</div>

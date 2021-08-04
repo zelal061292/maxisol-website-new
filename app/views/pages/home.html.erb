@@ -20,7 +20,7 @@
             <%= link_to "Témoignage", "#", class: "nav-link" %>
           </li>
           <li class="nav-item smaller">
-            <%= link_to "Galerie photos", "#", class: "nav-link" %>
+            <%= link_to "Galerie photos", galery_path, class: "nav-link" %>
           </li>
           <li class="nav-item smaller">
             <%= link_to "Qui sommes-nous", "#", class: "nav-link" %>
@@ -88,6 +88,8 @@
 
   </div>
 </div>
+
+<%= link_to "voir les photos", posts_path, class: "all-posts" %>
 
 <div class="main-container-2">
   <div class="ContGrid-2 row justify-content-center">

@@ -1,0 +1,11 @@
+
+<h1>Posts / Index / all</h1>
+
+<%= link_to "Ajouter de nouvelles photos", new_post_path, class: "new-post" %>
+
+<ul>
+  <% @posts.each do |post| %>
+    <li><%= post.title %></li>
+    <li><%= post.content %></li>
+  <% end %>
+</ul>
