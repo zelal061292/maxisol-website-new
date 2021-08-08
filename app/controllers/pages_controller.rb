@@ -7,9 +7,6 @@ class PagesController < ApplicationController
   def tarif
   end
 
-  # def galery
-  # end
-
   def dashboard
   end
 
