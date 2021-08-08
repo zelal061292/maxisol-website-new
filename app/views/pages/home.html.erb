@@ -1,7 +1,8 @@
+
 <div class="sticky-top">
   <div class="navbar navbar-expand-lg navbar-light navbar-lewagon">
     <%# <%= link_to "MAXISOL", "#", class: "navbar-brand" %>
-    <%= link_to image_tag("LOGO FINAL MAXISOL 2.jpg"), "#", class: "navbar-brand" %>
+    <%= link_to image_tag("LOGO FINAL MAXISOL 2.jpg"), home_path, class: "navbar-brand" %>
       <%# <%= image_tag "https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/logo.png" %>
 
 
@@ -24,6 +25,9 @@
           </li>
           <li class="nav-item smaller">
             <%= link_to "Qui sommes-nous", "#", class: "nav-link" %>
+          </li>
+          <li class="nav-item smaller">
+            <%= link_to "Page d'accueil", home_path, class: "nav-link" %>
           </li>
         </div>
         <div class="my-2 my-lg-0">
@@ -88,8 +92,6 @@
 
   </div>
 </div>
-
-<%= link_to "voir les photos", posts_path, class: "all-posts" %>
 
 <div class="main-container-2">
   <div class="ContGrid-2 row justify-content-center">

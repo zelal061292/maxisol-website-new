@@ -1,4 +1,45 @@
 
+<div class="sticky-top">
+  <div class="navbar navbar-expand-lg navbar-light navbar-lewagon">
+    <%# <%= link_to "MAXISOL", "#", class: "navbar-brand" %>
+    <%= link_to image_tag("LOGO FINAL MAXISOL 2.jpg"), home_path, class: "navbar-brand" %>
+      <%# <%= image_tag "https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/logo.png" %>
+
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <div class="nav-items">
+          <li class="nav-item smaller">
+            <%= link_to "Les tarifs", tarif_path, class: "nav-link" %>
+          </li>
+          <li class="nav-item smaller">
+            <%= link_to "Témoignage", "#", class: "nav-link" %>
+          </li>
+          <li class="nav-item smaller">
+            <%= link_to "Galerie photos", posts_path, class: "nav-link" %>
+          </li>
+          <li class="nav-item smaller">
+            <%= link_to "Qui sommes-nous", "#", class: "nav-link" %>
+          </li>
+          <li class="nav-item smaller">
+            <%= link_to "Page d'accueil", home_path, class: "nav-link" %>
+          </li>
+        </div>
+        <div class="my-2 my-lg-0">
+          <button type="button" class="btn btn-dark btn-lg my-2 my-sm-0">
+            <%= link_to 'Obtenir un devis personnalisé' , new_contacts_path %>
+          </button>
+        </div>
+      </ul>
+    </div>
+  </div>
+</div>
+
 <h1>Posts / Index / all</h1>
 
 <%= link_to "Ajouter de nouvelles photos", new_post_path, class: "new-post" %>
