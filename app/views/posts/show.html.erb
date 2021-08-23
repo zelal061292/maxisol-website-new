@@ -1,0 +1,9 @@
+
+<h1>Show</h1>
+
+<%= link_to "Delete #{@post.title}",
+            post_path(@post),
+            method: :delete,
+            data: { confirm: "Are you sure?" } %>
+
+
