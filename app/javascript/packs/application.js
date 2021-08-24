@@ -29,21 +29,21 @@ document.addEventListener('turbolinks:load', () => {
   // initSelect2();
 });
 
+const nav = document.querySelector('.navbar');
+const navitem = document.querySelector('.nav-item');
 
-window.onscroll = function () {
+window.addEventListener('scroll', () => {
+  if(window.scrollY > 20) {
+    nav.classList.add('scroll');
+    navitem.classList.remove('scroll');
+  }
+  else{
+    nav.classList.remove('scroll');
+    navitem.classList.add('scroll');
+  }
+});
 
-    if(document.documentElement.scrollTop > 50) {
-      document.getElementById("navbar-unconnected").style.padding = "38px 24px";
-      document.getElementById("navbar-unconnected").style.background = "white";
-      document.getElementsById("maxisol-logo").style.color = "black";
-      document.getElementsById("navbar-items").style.color = "black";
-    }
-    else {
-      document.getElementById("navbar-unconnected").style.padding = "66px 36px";
-      document.getElementById("navbar-unconnected").style.background = "#1A3E74";
-      document.getElementsById("maxisol-logo").style.color = "white";
-      document.getElementsById("navbar-items").style.color = "white";
-    }
 
-}
+
+
 

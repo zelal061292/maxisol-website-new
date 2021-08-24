@@ -1,8 +1,17 @@
+.nav-item .scroll {
+  color: white!important;
+}
 
+.navbar.scroll {
+  background-color: white!important;
+  transition: all 0.25s ease-in-out;
+  // padding: 0.5rem 1rem
+}
 
 .sticky-top {
-  background-color: white;
+  background-color: #2A62B7;
   position: sticky;
+  transition: all 0.25s ease-in-out;
 }
 
 @media only screen and (max-width: 950px) {
