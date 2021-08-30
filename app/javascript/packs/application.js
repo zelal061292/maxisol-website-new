@@ -43,7 +43,15 @@ window.addEventListener('scroll', () => {
   }
 });
 
+var colorLogoPath = "#{asset_path('LOGOFINAL MAXISOL.png')}";
+var whiteLogoPath = "#{asset_path('LOGOfinalBlanc.png')}";
 
-
-
+window.scroll(function () {
+  if ($(document).scrollTop() > 20) {
+    colorLogoPath();
+  }
+  else {
+    whiteLogoPath();
+  }
+});
 

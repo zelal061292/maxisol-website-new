@@ -16,6 +16,10 @@
 
 @media only screen and (max-width: 950px) {
 
+  .navbar-lewagon .navbar-brand img {
+      width: 90px;
+  }
+
   #navbarSupportedContent {
     width: 100vw;
     height: 100vh;
