@@ -22,6 +22,9 @@
 }
 
 .trop-froid-card {
+  background-size: cover;
+  object-fit: contain;
+  background-position: center;
   border-radius: 3px;
   margin-top: 10%;
   margin-bottom: 5%;
@@ -30,8 +33,13 @@
   // position: relative;
   height: 220px;
   filter: drop-shadow(2px 3px 4px rgba(0, 0, 0, 0.25));
+  background-image: asset-url("froid.png");
 }
+
 .trop-chaud-card {
+  background-size: cover;
+  object-fit: contain;
+  background-position: center;
   border-radius: 3px;
   margin-top: 10%;
   margin-bottom: 5%;
@@ -40,8 +48,14 @@
   // position: relative;
   height: 220px;
   filter: drop-shadow(2px 3px 4px rgba(0, 0, 0, 0.25));
+  background-image: asset-url("chaud.png");
 }
+
 .perte-energie-card {
+  background-size: cover;
+  object-fit: contain;
+  background-position: center;
+  background-image: asset-url("energie.png");
   border-radius: 3px;
   margin-top: 10%;
   margin-bottom: 5%;
@@ -50,8 +64,13 @@
   // position: relative;
   height: 220px;
   filter: drop-shadow(2px 3px 4px rgba(0, 0, 0, 0.25));
+
 }
 .moisisur-card {
+  background-size: cover;
+  object-fit: contain;
+  background-position: center;
+  background-image: asset-url("moisissure.png");
   border-radius: 3px;
   margin-top: 10%;
   margin-bottom: 5%;
