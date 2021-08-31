@@ -31,11 +31,13 @@ document.addEventListener('turbolinks:load', () => {
 
 const nav = document.querySelector('.navbar');
 const navitem = document.querySelector('.nav-item');
+const navlogo = document.querySelector('.navbar-brand');
 
 window.addEventListener('scroll', () => {
   if(window.scrollY > 20) {
     nav.classList.add('scroll');
     navitem.classList.remove('scroll');
+    navlogo.classList.add('scroll')
   }
   else{
     nav.classList.remove('scroll');
@@ -43,15 +45,15 @@ window.addEventListener('scroll', () => {
   }
 });
 
-var colorLogoPath = "#{asset_path('LOGOFINAL MAXISOL.png')}";
-var whiteLogoPath = "#{asset_path('LOGOfinalBlanc.png')}";
+// var colorLogoPath = "#{asset_path('LOGOFINAL MAXISOL.png')}";
+// var whiteLogoPath = "#{asset_path('LOGOfinalBlanc.png')}";
 
-window.scroll(function () {
-  if ($(document).scrollTop() > 20) {
-    colorLogoPath();
-  }
-  else {
-    whiteLogoPath();
-  }
-});
+// window.scroll(function () {
+//   if ($(document).scrollTop() > 20) {
+//     colorLogoPath();
+//   }
+//   else {
+//     whiteLogoPath();
+//   }
+// });
 
