@@ -30,30 +30,19 @@ document.addEventListener('turbolinks:load', () => {
 });
 
 const nav = document.querySelector('.navbar');
-const navitem = document.querySelector('.nav-item');
-const navlogo = document.querySelector('.navbar-brand');
+const img = document.querySelector('.navbar-brand');
+
 
 window.addEventListener('scroll', () => {
   if(window.scrollY > 20) {
     nav.classList.add('scroll');
-    navitem.classList.remove('scroll');
-    navlogo.classList.add('scroll')
+    img.src = 'LOGOFINALMAXISOL.png';
   }
   else{
     nav.classList.remove('scroll');
-    navitem.classList.add('scroll');
+
   }
 });
 
-// var colorLogoPath = "#{asset_path('LOGOFINAL MAXISOL.png')}";
-// var whiteLogoPath = "#{asset_path('LOGOfinalBlanc.png')}";
 
-// window.scroll(function () {
-//   if ($(document).scrollTop() > 20) {
-//     colorLogoPath();
-//   }
-//   else {
-//     whiteLogoPath();
-//   }
-// });
 

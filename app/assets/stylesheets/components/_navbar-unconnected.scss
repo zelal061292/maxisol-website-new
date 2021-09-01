@@ -1,7 +1,7 @@
-.nav-item .scroll {
-  color: white!important;
-}
 
+.nav-item a {
+    color: white!important;
+}
 // .navbar-brand-scroll {
 //   background-image : url(LOGOFINALMAXISOL.png)!important;
 // }
@@ -9,6 +9,14 @@
 .navbar.scroll {
   background-color: white!important;
   transition: all 0.25s ease-in-out;
+
+  .nav-item a {
+    color: black!important;
+  }
+
+  .btn-dark {
+    background-color: #19C879;
+  }
   // padding: 0.5rem 1rem
 }
 
