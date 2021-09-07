@@ -30,16 +30,18 @@ document.addEventListener('turbolinks:load', () => {
 });
 
 const nav = document.querySelector('.navbar');
-const img = document.querySelector('.navbar-brand');
+const img = document.querySelector('.navbar-brand img');
+console.log(img)
 
 
 window.addEventListener('scroll', () => {
   if(window.scrollY > 20) {
     nav.classList.add('scroll');
-    img.src = 'LOGOFINALMAXISOL.png';
+    img.src = '../assets/LOGOFINALMAXISOL.png';
   }
   else{
     nav.classList.remove('scroll');
+    img.src = '../assets/LOGOfinalBlanc.png';
 
   }
 });
