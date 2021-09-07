@@ -1,14 +1,25 @@
+.navbar-brand img {
+  transition: all 0.25s ease-in-out;
+}
+
 
 .nav-item a {
-    color: white!important;
+  transition: all 0.25s ease-in-out;
+  color: white!important;
 }
 // .navbar-brand-scroll {
 //   background-image : url(LOGOFINALMAXISOL.png)!important;
 // }
 
 .navbar.scroll {
+
   background-color: white!important;
   transition: all 0.25s ease-in-out;
+
+  .navbar-brand img  {
+    transition: all 0.25s ease-in-out;
+  }
+
 
   .nav-item a {
     color: black!important;
