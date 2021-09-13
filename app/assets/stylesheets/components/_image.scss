@@ -8,6 +8,67 @@
 }
 
 
-// .navbar-brand {
-//   width: 40%;
+.wrap-container {
+    position: relative;
+    overflow: hidden;
+    padding: 16px;
+    // border: 1px dashed green;
+    // background: #99BEFF;
+    // background: #D6E5FF
+    background: #ADCBFF;
+
+
+  h1 {
+    padding: 100px;
+    position: relative;
+    z-index: 2;
+  }
+  img {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 251%;
+      height: auto;
+      opacity: 0.6;
+      margin-left: -383px;
+      margin-top: 293px;
+
+  #arriere_plan
+    {
+    background-image : url("./images/logo.png");
+    opacity: 0.6;
+    }
+  }
+}
+
+
+// .wrap-container {
+//     position: relative;
+//     background: #5C97FF;
+//     overflow: hidden;
+
+//   h1 {
+//     padding: 50px;
+//     position: relative;
+//     z-index: 2;
+//   }
+// /* You could use :after - it doesn't really matter */
+//   .wrap-container:before {
+//       content: ' ';
+//       display: block;
+//       position: absolute;
+//       left: 0;
+//       top: 0;
+//       width: 100%;
+//       height: 100%;
+//       z-index: 1;
+//       opacity: 0.6;
+
+//       background-repeat: no-repeat;
+//       background-position: 50% 0;
+//       background-size: cover;
+//   }
+
 // }
+
+

@@ -7,9 +7,6 @@
   transition: all 0.25s ease-in-out;
   color: white!important;
 }
-// .navbar-brand-scroll {
-//   background-image : url(LOGOFINALMAXISOL.png)!important;
-// }
 
 .navbar.scroll {
 
@@ -37,59 +34,57 @@
   transition: all 0.25s ease-in-out;
 }
 
-@media only screen and (max-width: 950px) {
+// @media only screen and (max-width: 950px) {
 
-  .navbar-lewagon .navbar-brand img {
-      width: 90px;
-  }
+//   .navbar-lewagon .navbar-brand img {
+//       width: 90px;
+//   }
 
-  #navbarSupportedContent {
-    width: 100vw;
-    height: 100vh;
+//   #navbarSupportedContent {
+//     width: 100vw;
+//     height: 100vh;
 
-  }
+//   }
 
-  a {
-    font-size: 0.80em !important;
-  }
+//   a {
+//     font-size: 0.80em !important;
+//   }
 
-  .btn-success {
-    margin-top: 38px;
-  }
-}
+//   .btn-success {
+//     margin-top: 38px;
+//   }
+// }
 
-@media only screen and (min-width: 950px) and (max-width: 1600px) {
+// @media only screen and (min-width: 950px) and (max-width: 1600px) {
 
-  .navbar-lewagon .navbar-brand img {
-      width: 100px;
-  }
-
-
-  .navbar {
-    padding-top: 0px;
-    padding-bottom: 0px;
-    margin-top: -5px;
-    margin-bottom: -5px;
-  }
-  .nav-items {
-    display: flex;
-    justify-content: space-between;
-    margin: 12px;
-
-  }
-
-  .nav-item {
-    margin-right: 18px;
-  }
-
-  .btn-dark {
+//   .navbar-lewagon .navbar-brand img {
+//       width: 100px;
+//   }
 
 
-    a {
-      font-size: 0.80em !important;
-    }
+//   .navbar {
+//     padding-top: 1%;
+//     padding-bottom: 1%;
+//   }
+//   .nav-items {
+//     display: flex;
+//     justify-content: space-between;
+//     margin: 12px;
 
-  }
+//   }
 
-}
+//   .nav-item {
+//     margin-right: 18px;
+//   }
+
+//   .btn-dark {
+
+
+//     a {
+//       font-size: 0.80em !important;
+//     }
+
+//   }
+
+// }
 

@@ -23,6 +23,11 @@
   width: 100%;
   // height: 113vh;
   flex-direction: column;
+
+  h3 {
+    font-family: Delius Unicase, cursive;
+    // font-size: 2em !important ;
+  }
 }
 
 .title-rencontre {
@@ -71,96 +76,96 @@
 }
 
 
-@media only screen and (min-width: 500px) {
+// @media only screen and (min-width: 500px) {
 
-  .title-rencontre {
-    margin-top: 5%;
-    font-size: 20px;
-  }
+//   .title-rencontre {
+//     margin-top: 5%;
+//     font-size: 20px;
+//   }
 
-  .Video-Clement {
-    margin-top: 4%;
-  }
+//   .Video-Clement {
+//     margin-top: 4%;
+//   }
 
-  .text-cont-1 {
-    margin-top: 3%;
-  }
+//   .text-cont-1 {
+//     margin-top: 3%;
+//   }
 
-  .citation-card-containter {
-    margin-top: 4%;
-  }
-}
+//   .citation-card-containter {
+//     margin-top: 4%;
+//   }
+// }
 
-@media only screen and (min-width: 768px) {
+// @media only screen and (min-width: 768px) {
 
-  .main-container-1 {
-    height: 100%;
-  }
+//   .main-container-1 {
+//     height: 100%;
+//   }
 
-  .main-container-2 {
-    height: 100%;
+//   .main-container-2 {
+//     height: 100%;
 
-    h3 {
-      font-size: 2.25em !important;
-    }
-  }
+//     h3 {
+//       font-size: 2.25em !important;
+//     }
+//   }
 
-  .container-cards{
-    // padding: 15%;
-    display: flex;
-    flex-direction: row;
-    box-sizing: border-box;
-    justify-content: center;
-  }
+//   .container-cards{
+//     // padding: 15%;
+//     display: flex;
+//     flex-direction: row;
+//     box-sizing: border-box;
+//     justify-content: center;
+//   }
 
-  .title-mes-mures {
-    text-align: center;
-    margin-top: 5%;
-  }
+//   .title-mes-mures {
+//     text-align: center;
+//     margin-top: 5%;
+//   }
 
-  .video-1 {
-    width: 640px;
-    height: 380px;
-  }
+//   .video-1 {
+//     width: 640px;
+//     height: 380px;
+//   }
 
-  .title-rencontre {
-    font-size: 20px;
-    margin-top: 3%;
-  }
-  .ButtonGrid-2 {
-    margin-bottom: 5%;
-  }
+//   .title-rencontre {
+//     font-size: 20px;
+//     margin-top: 3%;
+//   }
+//   .ButtonGrid-2 {
+//     margin-bottom: 5%;
+//   }
 
 
-}
+// }
 
-@media only screen and (max-width: 768px) {
-  .cards-cont2 {
-    justify-content: center;
-  }
-}
+// @media only screen and (max-width: 768px) {
+//   .cards-cont2 {
+//     justify-content: center;
+//   }
+// }
 
-@media only screen and (min-width: 500px) and (max-width: 768px) {
+// @media only screen and (min-width: 500px) and (max-width: 768px) {
 
-  .video-1 {
-    width: 480px;
-    height: 300px;
-  }
+//   .video-1 {
+//     width: 480px;
+//     height: 300px;
+//   }
 
-  .title-rencontre {
-    font-size: 15px;
-    margin-top: 3%;
-  }
-}
+//   .title-rencontre {
+//     font-size: 15px;
+//     margin-top: 3%;
+//   }
+// }
 
-@media only screen and (min-width: 750px) and (max-width: 950px) {
-    .text-cont-1 {
-    font-size: 20px;
-  }
-}
+// @media only screen and (min-width: 750px) and (max-width: 950px) {
+//     .text-cont-1 {
+//     font-size: 20px;
+//   }
+// }
 
-@media only screen and (min-width: 950px) {
-    .text-cont-1 {
-      font-size: 30px;
-  }
-}
+// @media only screen and (min-width: 950px) {
+//     .text-cont-1 {
+//       font-size: 30px;
+//   }
+// }
