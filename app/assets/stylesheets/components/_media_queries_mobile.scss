@@ -1,0 +1,61 @@
+@media screen and (max-width: 768px) {
+  .banner{
+    .btn-success {
+      a {
+        font-size: 1.25em !important;
+      }
+    }
+  }
+
+  // h1 {
+  //     font-size: 4.25em !important;
+  //   }
+
+  .banner {
+
+    .ButtonGrid {
+      margin-left: 0px;
+      // grid-auto-flow: row;
+    }
+
+    .BanGrid-container {
+      display: flex;
+      flex-wrap: wrap;
+      box-sizing: border-box;
+    }
+
+    h1 {
+      margin-bottom: 1.2em !important;
+      // font-size: 2em !important;
+    }
+
+    h3{
+      font-size: 1.2em !important;
+      margin-bottom: 2.2em !important;
+    }
+
+  }
+
+  .cards-cont2 {
+    justify-content: center;
+  }
+
+  .navbar-lewagon .navbar-brand img {
+      width: 90px;
+  }
+
+  #navbarSupportedContent {
+    width: 100vw;
+    height: 100vh;
+
+  }
+
+  a {
+    font-size: 0.80em !important;
+  }
+
+  .btn-success {
+    margin-top: 38px;
+  }
+
+}

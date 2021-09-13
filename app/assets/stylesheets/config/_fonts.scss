@@ -2,6 +2,9 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito:400,700|Work+Sans:400,700&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vast+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Salsa&family=Vast+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Delius+Unicase&family=Salsa&family=Vast+Shadow&display=swap');
 
 
 // @import url('https://fonts.googleapis.com/css2?family=Khand:wght@300&display=swap');
@@ -11,8 +14,11 @@
 // Define fonts for body and headers
 // $body-font: "Work Sans", "Helvetica", "sans-serif";
 // $headers-font: "Nunito", "Helvetica", "sans-serif";
-$headers-font: 'Allerta Stencil', sans-serif;
-$body-font: 'Allerta Stencil', sans-serif;
+
+// $headers-font: 'Allerta Stencil', sans-serif;
+$headers-font: 'Vast Shadow', cursive;
+// $headers-font: 'Delius Unicase', cursive;
+$body-font: 'Delius Unicase', cursive;
 
 // To use a font file (.woff) uncomment following lines
 // @font-face {

@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
   devise_for :users
 
+  # devise_for :users, :skip => [:registrations] , controllers: { sessions: 'users/sessions' }
+
   # get "posts", to: "posts#index"
   # get "posts/new", to: "posts#new"
   # get "posts/new", to: "posts#new"
