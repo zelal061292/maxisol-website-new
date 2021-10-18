@@ -3,7 +3,7 @@ class PostsController < ApplicationController
   skip_before_action :authenticate_user!, only: [:index] # pour acceder a l'index post (galerie) sans devoir s'authentifier
 
   def index
-    @posts = Post.all
+    # @posts = Post.all
   end
 
   def show

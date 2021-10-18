@@ -1,38 +1,59 @@
 
+<div class= "main-container-gallery">
 
-<h1>Posts / Index / all</h1>
+  <%# <div class="ContGrid-gallery row justify-content-center wrap-container"> %>
 
-<%# <% if current_user.present? %>
+  <%# <div class="cards-gallery"> %>
 
-  <%= link_to "Ajouter de nouvelles photos", new_post_path, class: "new-post" %>
+    <% if current_user.present?%>
 
-  <ul>
-    <% @posts.each do |post| %>
-      <li><%= link_to post.title, post_path(post) %></li>
+      <%= link_to  "Ajouter de nouvelles photos", new_post_path, class: "new-post" %>
 
-        <%= post.content %>
+      <ul>
+        <% @posts.each do |post| %>
+          <li><%= link_to post.title, post_path(post) %></li>
 
-        <% if post.photo.attached? %>
-          <%= cl_image_tag post.photo.key , height: 200, width: 300, crop: :fill %>
-        <% else %>
-          <%= image_tag("LOGO FINAL MAXISOL 2.jpg",  height: 200, width: 300, crop: :fill, class:"Maxisol-preview")%>
+            <p><%= post.content %></p>
+
+            <% if post.photo.attached? %>
+              <%= cl_image_tag post.photo.key , height: 200, width: 300, crop: :fill %>
+            <% else %>
+              <%= image_tag("LOGO FINAL MAXISOL 2.jpg",  height: 200, width: 300, crop: :fill, class:"Maxisol-preview")%>
+            <% end %>
+
         <% end %>
 
-    <% end %>
+      </ul>
+  <%# </div> %>
 
-  </ul>
-<%#
-<% else %>
-  <%# <ul>
+  <% else %>
 
-    <%= post.content %>
 
-      <%# <% if post.photo.attached? %>
-        <%# <%= cl_image_tag post.photo[:id] , height: 200, width: 300, crop: :fill %>
-      <%# <% else %>
-        <%# <%= image_tag("LOGO FINAL MAXISOL 2.jpg",  height: 200, width: 300, crop: :fill, class:"Maxisol-preview")%>
-      <%# <% end %>
+    <p><h1 class="h1-gal-visitor">Accédez aux galleries photos de Maxisol</h1></p>
 
-  <%# </ul>
 
-<% end %>
+        <div class="cards ContGrid-gallery row justify-content-center wrap-container">
+
+
+          <button type="button" class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../assets/ITE_card_1.jpg)"><%= link_to  "Isolation exterieur", galery_path, class: "galery-link"%>
+          </button>
+
+          <button type="button" class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/lunch.jpg)">
+            Lunch
+          </button>
+
+          <button type="button" class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/dinner.jpg)">
+            Dinner
+          </button>
+
+        </div>
+
+
+  <% end %>
+
+
+
+
+  <%# </div> %>
+
+</div>
