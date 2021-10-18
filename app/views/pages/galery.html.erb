@@ -1,0 +1,16 @@
+<%# <%= link_to  "Isolation exterieur", galery_path, class: "galery-link"%> %>
+<div class="cards-gallery">
+
+  <% @posts.each do |post| %>
+
+    <p><%= post.content %></p>
+
+    <% if post.photo.attached? %>
+      <%= cl_image_tag post.photo.key , height: 200, width: 300, crop: :fill %>
+    <% else %>
+      <%= image_tag("LOGO FINAL MAXISOL 2.jpg",  height: 200, width: 300, crop: :fill, class:"Maxisol-preview")%>
+    <% end %>
+
+  <% end %>
+
+</div>
