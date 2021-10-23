@@ -1,5 +1,5 @@
 class PagesController < ApplicationController
-  skip_before_action :authenticate_user!, only: [ :home, :tarif, :galery]
+  skip_before_action :authenticate_user!, only: [ :home, :tarif, :galery, :photosi, :photosa]
 
   def home
   end
@@ -13,5 +13,14 @@ class PagesController < ApplicationController
   def galery
     @posts = Post.all
   end
+
+  def photosi
+    @posts = Post.all
+  end
+
+  def photosa
+    @posts = Post.all
+  end
+
 
 end

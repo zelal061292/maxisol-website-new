@@ -1,3 +1,21 @@
 <h1>There is my dashboard</h1>
 
 <%= link_to "Voir toutes les photos", posts_path, class: "index-posts" %>
+
+
+<p><h1 class="h1-gal-visitor">Ajoutez vos photos Maxisol</h1></p>
+
+
+        <div class="cards ContGrid-gallery row justify-content-center wrap-container">
+
+
+          <button type="button" class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../assets/ITE_card_1.jpg)"><%= link_to  "Isolation exterieur", new_post_path, class: "galery-link"%>
+          </button>
+
+          <button type="button" class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../assets/Isolation_toit_card.jpg)"><%= link_to  "Isolation interieur", photosi_path, class: "galery-link"%>
+          </button>
+
+          <button type="button" class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../assets/Salle_de_bain.jpg)"><%= link_to  "Autre", photosa_path, class: "galery-link"%>
+          </button>
+
+        </div>
