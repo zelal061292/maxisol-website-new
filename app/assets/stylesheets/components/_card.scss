@@ -1,3 +1,36 @@
+.pain-points {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 64px;
+  margin-top: 64px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 22%);
+
+  column-gap: 4%;
+  justify-content: center;
+
+
+  .element-grid {
+    padding: 16px 4px 8px 4px;
+    // background-color: d;
+    text-align: center;
+    background-color: white;
+    i {
+      font-size: 32px;
+      margin-bottom: 16px;
+    }
+    p {
+      font-size: 16px;
+      font-weight: 250;
+      margin: 16px 4px 8px 4px;
+    }
+    box-shadow: $box-shadow-home;
+    border-radius: 8px;
+    // width: 200px;
+  }
+
+}
+
 .citation-card {
   overflow: hidden;
   height: 220px;
@@ -22,7 +55,7 @@
 }
 
 .trop-froid-card {
-  background-size: cover;
+  // background-size: cover;
   object-fit: contain;
   background-position: center;
   border-radius: 3px;
@@ -33,7 +66,7 @@
   // position: relative;
   height: 220px;
   filter: drop-shadow(2px 3px 4px rgba(0, 0, 0, 0.25));
-  background-image: asset-url("froid.png");
+  // background-image: asset-url("froid.png");
 }
 
 .trop-chaud-card {
@@ -234,12 +267,16 @@
 .cards {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  // grid-template-columns: repeat(auto-fill, 22%);
+  // column-gap: 3%;
   grid-gap: 48px;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 10%;
   margin-top: 5%;
+  padding: 0 !important;
+  position: 0 !important;
 }
 
 .card-category {
@@ -271,6 +308,10 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 16px;
+}
+
+.row {
+  padding: 0 !important;
 }
 
 // Smallest device

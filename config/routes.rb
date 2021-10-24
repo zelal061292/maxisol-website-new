@@ -20,6 +20,8 @@ Rails.application.routes.draw do
     root to: "pages#home", as: "home"
     get "/tarif" => "pages#tarif"
     get "/galery" => "pages#galery"
+    get "/photosi" => "pages#photosi"
+    get "/photosa" => "pages#photosa"
   end
 
   #authenticate user do
