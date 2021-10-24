@@ -9,6 +9,7 @@
   padding-right: 32px;
   padding-bottom: 16px;
 
+
   &:hover {
     background-color: #25E48E;
   }
@@ -16,9 +17,14 @@
   a{
     text-decoration: none;
     color: white;
+    font-size: 20px;
+    font-weight: bold;
   }
 }
 
+.ButtonGrid a{
+  font-size: 20px !important;
+}
 
 .btn-dark {
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
@@ -32,6 +38,7 @@
   a {
     text-decoration: none;
     color: white;
+    font-size: 20px;
   }
 }
 
@@ -39,6 +46,8 @@
   // margin-top: 3%;
   justify-content: center;
   margin: auto;
+  font-size: 30px;
+  font-weight: bolder;
 }
 
 .ButtonGrid-3 {
@@ -46,6 +55,25 @@
   justify-content: center;
   margin: auto;
 }
+
+.btn-ghost {
+  margin-top: 10%;
+  color: #1EDD88;
+  border: 2px solid #1EDD88;
+  padding: 15px 34px;
+  border-radius: 50px;
+  font-weight: bold;
+  font-size: 38px;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+.btn-ghost:hover {
+  color: black;
+  border: 2px solid black;
+}
+
+
 
 // @media only screen and (min-width: 950px) and (max-width: 1600px) {
 

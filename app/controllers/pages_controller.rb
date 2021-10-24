@@ -11,15 +11,15 @@ class PagesController < ApplicationController
   end
 
   def galery
-    @posts = Post.all
+    @posts = Post.where(cathegory: "Isolation exterieur")
   end
 
   def photosi
-    @posts = Post.all
+    @posts = Post.where(cathegory: "Isolation interieur")
   end
 
   def photosa
-    @posts = Post.all
+    @posts = Post.where(cathegory: "Autres")
   end
 
 

@@ -18,14 +18,24 @@
       color: white;
       margin-left: 6px;
       font-weight: bold;
+
     }
 
     h3 {
       color: white;
       margin-left: 6px;
-      font-weight: bold;
-      font-family: Delius Unicase, cursive;
+      font-weight: lighter;
+      // font-family: Delius Unicase, cursive;
     }
+
+    .str-ban{
+      text-decoration: underline;
+    }
+
+    // .span-ban{
+    //   text-decoration: underline;
+
+    // }
 
 }
 

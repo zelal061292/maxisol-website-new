@@ -3,7 +3,7 @@ class PostsController < ApplicationController
   skip_before_action :authenticate_user!, only: [:index] # pour acceder a l'index post (galerie) sans devoir s'authentifier
 
   def index
-    # @posts = Post.all
+    @posts = Post.all
   end
 
   def show
@@ -19,7 +19,7 @@ class PostsController < ApplicationController
     @post = Post.new(post_params)
     @post.user_id = current_user.id
 
-    if @post.save
+    if @post.save!
       redirect_to posts_path
     else
       render :new
@@ -38,6 +38,6 @@ class PostsController < ApplicationController
   private
 
   def post_params
-    params.require(:post).permit(:title, :content, :cathegory, :photo)
+    params.require(:post).permit(:title, :content, :photo, :cathegory)
   end
 end

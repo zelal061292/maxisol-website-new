@@ -1,3 +1,33 @@
+.main-cards-dash-container{
+  min-height: 100vh;
+
+  .banner-dash{
+    background-size: cover;
+    background-position: center;
+    padding: 150px 0;
+    height: 100vh
+  }
+
+  .banner-dash h1 {
+    margin: 0;
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    font-size: 58px;
+    font-weight: bold;
+    .underline{
+      text-decoration: underline;
+    }
+  }
+
+  .banner-dash p {
+    margin-top: 3%;
+    font-size: 38px;
+    color: white;
+    opacity: .7;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  }
+}
+
 .container-footer {
   display: flex;
   // justify-content: space-between;

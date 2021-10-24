@@ -7,7 +7,7 @@
       label: "Titre"%>
     <%= f.input :content,
       label: "Contenu"%>
-    <%= f.input :cathegory, :collection => %w[Mike Nick Jason Tim] %>
+    <%= f.input :cathegory, collection:["Isolation exterieur", "Isolation interieur", "Autres"]%>
     <%= f.input :photo, as: :file %>
     <%= f.submit "Ajouter la photo"%>
   <% end %>

@@ -13,3 +13,33 @@
 .navbar-lewagon .navbar-brand img {
   width: 50px;
 }
+
+
+.navbar-nav {
+  a {
+    font-size: 20px;
+    font-weight:lighter;
+
+  }
+
+}
+
+.nav-link:hover{
+  color: black!important;
+}
+
+// .nav-item a {
+//   :hover{
+//     color: black!important;
+//   }
+// }
+
+.dropdown-item:hover{
+  color: black!important;
+}
+// .dropdown-menu{
+//   color: black!important;
+// }
+
+
+
